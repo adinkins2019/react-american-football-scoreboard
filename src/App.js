@@ -43,8 +43,8 @@ function App() {
           <button onClick={() => {setHomeScore(scoreFieldGoal(homeScore))}}className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
-          <button onClick={() => {setHomeScore(scoreTouchdown(awayScore))}}className="awayButtons__touchdown">Away Touchdown</button>
-          <button onClick={() => {setHomeScore(scoreFieldGoal(awayScore))}}className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button onClick={() => {setAwayScore(scoreTouchdown(awayScore))}}className="awayButtons__touchdown">Away Touchdown</button>
+          <button onClick={() => {setAwayScore(scoreFieldGoal(awayScore))}}className="awayButtons__fieldGoal">Away Field Goal</button>
         </div>
       </section>
     </div>
